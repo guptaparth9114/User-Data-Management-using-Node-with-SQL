@@ -4,8 +4,8 @@
 - [Description](#description)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Database Schema](#database-schema)
 - [Routes](#routes)
+- [Database Schema](#database-schema)
 
 
 ## Description
@@ -29,6 +29,14 @@ The User Data Management App is a web application built using Node.js and Expres
 - CSS3
 - JavaScript
 
+## Routes
+- '/' - Home page displaying the total number of users.
+- /user - View the list of users.
+- /user/:id/edit - Edit user information.
+- /user/new - Add a new user.
+- /user/:id/delete - Delete a user
+
+
 ## Database Schema
 
 ```sql
@@ -40,9 +48,3 @@ CREATE TABLE user (
 );
 
 
-## Routes
-- '/' - Home page displaying the total number of users.
-- /user - View the list of users.
-- /user/:id/edit - Edit user information.
-- /user/new - Add a new user.
-- /user/:id/delete - Delete a user
