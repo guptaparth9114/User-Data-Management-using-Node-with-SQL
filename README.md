@@ -29,13 +29,16 @@ The User Data Management App is a web application built using Node.js and Expres
 - CSS3
 - JavaScript
 
-## Database Schema 
+## Database Schema
+
+```sql
 CREATE TABLE user (
     id VARCHAR(50) PRIMARY KEY,
     username VARCHAR(45) UNIQUE,
     email VARCHAR(91) UNIQUE NOT NULL,
     password VARCHAR(55) NOT NULL
 );
+
 
 ## Routes
 - '/' - Home page displaying the total number of users.
